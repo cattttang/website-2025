@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name='keywords' content="welcome, catherine, tang, cat, portfolio, home">
+        <meta name="description" content="Welcome to Cat Tang's personal homepage. In this space, you'll find writing pieces, recipes, and more!">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="final.css">
+        <title> Cat Tang | Space </title>
+
+        <style>
+        h1 {
+            text-align: center;
+        }
+
+        body {
+            background-color: oldlace;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #footer {
+                text-align: center;
+                color: darkolivegreen;
+                background-color: lightgoldenrodyellow;
+            }
+
+        .navbar {
+                background-color: crimson;
+                width: 60px;
+                height: 50px;
+                text-align: center;
+                color: lightgoldenrodyellow;
+                border-radius: 50%;
+                padding-top: 10px;
+                position: relative;
+                cursor: pointer;
+                transition: 0.24s 0.2s;
+                position: absolute;
+                top: 250px;
+                left: 550px;
+            }
+
+        .nav li {
+                list-style: none;
+                background-color: tan;
+                width: 60px;
+                height: 40px;
+                text-align: center;
+                color: lightgoldenrodyellow;
+                border-radius: 50%;
+                padding-top: 20px;
+                position: relative;
+                cursor: pointer;
+                transition: 0.24s 0.2s;
+        }
+
+        .nav li {
+                list-style: none;
+                padding-top: 20px;
+                margin: 0;
+                position: absolute;
+                top: -75px;
+                left: -75px;
+                border: 150px solid transparent;
+                cursor: default;
+                transform: scale(0);
+                transition: transform 1.4s 0.07s;
+                z-index: -1;
+        }
+
+        .navbar:hover .nav li {
+            transition: transform 0.4s 0.08s, z-index 0s 0.5s;
+            transform: scale(1);
+            z-index: 1;
+        }
+
+        .navbar .nav li{
+            position: absolute;
+            top: -100px;
+            left: -100px;
+            transform-origin: 100px 100px;
+            transition: all 0.5s 0.1s;
+        }
+
+        </style>
+    </head>
+
+    <body>
+        <div id='header'>
+            <h1> welcome </h1>
+        </div>
+
+        <div class='navbar'> CAT TANG
+            <ul class="nav">
+                <li> <a href="https://www.linkedin.com/in/tang-catherine">WORK</a> </li>
+                <li> <a href='writing.html'> PLAY </a> </li>
+            </ul> 
+        </div>
+
+
+
+            <div id='footer'>
+                hello! this is cat tang's personal website. the purpose is just fun; playing with web design, sharing writing, and showing off foods i've made. thanks for clicking to this corner of the internet! i hope you enjoy, and i hope you are having a good day, and i hope you will have a good day tomorrow. feel free to reach out (insta @cattttang, cooking insta @cattangcooks) for any questions or comments.
+            </div>
+
+
+    </body>
